@@ -1,0 +1,45 @@
+Sample program test:
+
+Shortest distances between all airports are available in shortest_distances.txt
+
+Enter two airports codes, separated by whitespace, to find out the shortest route between them, or enter q to quit: HNL PVD
+
+Shortest route from HNL to PVD is:
+HNL
+LAX
+ORD
+PVD
+Distance is 5147 miles.
+
+Enter two airports codes, separated by whitespace, to find out the shortest route between them, or enter q to quit: SFO MIA
+
+Shortest route from SFO to MIA is:
+SFO
+LAX
+DFW
+MIA
+Distance is 2690 miles.
+
+Enter two airports codes, separated by whitespace, to find out the shortest route between them, or enter q to quit: DFW SFO
+
+Shortest route from DFW to SFO is:
+DFW
+LAX
+SFO
+Distance is 1570 miles.
+
+Enter two airports codes, separated by whitespace, to find out the shortest route between them, or enter q to quit: ORD LGA
+
+Shortest route from ORD to LGA is:
+ORD
+PVD
+LGA
+Distance is 991 miles.
+
+Enter two airports codes, separated by whitespace, to find out the shortest route between them, or enter q to quit: MIA MIA
+
+Shortest route from MIA to MIA is:
+MIA
+Distance is 0 miles.
+
+Enter two airports codes, separated by whitespace, to find out the shortest route between them, or enter q to quit: q
